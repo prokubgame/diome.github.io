@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+    text-align: justify;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(198, 255, 255);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: #dfdfdf;
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: smaller;
+    text-align: justify;
+}
+.footer {
+    background-color: #dfdfdf;
+    min-height: 50px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: x-small;
+    text-align: center;
+}
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+    padding: 1px; 
+  table {
+    border-collapse: collapse; /* une as bordas das células da tabela */
+    width: 100%; /* define a largura da tabela */
+    padding: 1px; /* adiciona espaçamento interno de 10px em todas as células da tabela */
+}
